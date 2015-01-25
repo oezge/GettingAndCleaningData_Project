@@ -27,9 +27,9 @@ The fourth request is to rename appropriately the columns of dataset_real. The c
 The fifth request asks to create an independent dataset with the average of each variable for each activity and each subject. The code uses the group_by function  from dplyr package to group the data with respect to subject and activity labels. The final, tidy data is created by summarise_each function which acted on the grouped data and took the means.  The final data has  180 rows with 82 columns. The first column is subject ids and the second one shows the activities. 
 The first three columns look like as follows :
 
- |Subject| ActivityLabel |timeBodyAcc.mean.X |  
- --------|---------------|--------------------
- |   1   |        LAYING |         0.2215982 | 
- |   1   |       SITTING |         0.2612376 |  
+|Subject| ActivityLabel |timeBodyAcc.mean.X |  
+--------|---------------|--------------------
+|   1   |        LAYING |         0.2215982 | 
+|   1   |       SITTING |         0.2612376 |  
 
 
